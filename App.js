@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { useForm } from 'react-hook-form'
 
+// Run => npm install react-hook-form
+// If you find error Warning: Function components cannot be given refs. To solve this error try "innerRef" instead of ref on form fields. e.g line 23 and 24
 
 const onSubmit = data => {
   console.log(data);
